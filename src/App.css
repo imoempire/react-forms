@@ -1,5 +1,16 @@
 .new-form{
     text-align: center;
-    width: 50%;
-    margin-left: 20%;
+    width: 40%;
+    margin-top: 90px;
+    margin-left: 5%;
+    border-radius: 8px;
+    height: 50vh;
+    padding: 60px;
+    background-color: grey;
+}
+.forms{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 5rem;
+    /* border: 2px solid rgb(8, 8, 8); */
 }
