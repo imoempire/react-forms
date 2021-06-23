@@ -26,6 +26,7 @@ class classForm extends Component {
           <>
         <form className="new-form" >
         <div className="mb-3">
+          <h1>CLASS FORM</h1>
           <label for="exampleInputName" className="form-label">Name</label>
           <input type="text" className="form-control" value={this.state.name}  onChange={this.handleName} />
         </div>
@@ -34,12 +35,10 @@ class classForm extends Component {
           <input type="email" className="form-control" value={this.state.email}onChange={this.handleEmail} />
         </div>
         <div className="mb-3 form-check">
-          <label className="form-check-label" for="exampleInputPassword">Password</label>
+          <label for="exampleInputPassword" className="form-check-label">Password</label>
           <input type="password" className="form-control" value={this.state.password} onChange={this.handlePassword} />
         </div>
-        {/* <button type="submit" className="btn btn-primary"> */}
-        <input type="submit" value="Submit" />
-        {/* </button> */}
+        <button type="submit" className="btn btn-primary">Submit</button>
       </form>
 
       </>
