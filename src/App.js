@@ -1,12 +1,15 @@
 import './App.css';
 import ClassForm from './Component/ClassForm';
-// import Classform1 from './Component/ClassForm1'
+import FunctionForm from './Component/FunctionForm';
 
 function App() {
   return (
-   <>
+    <>
+    <h1 style={{textAlign: "center"}}>Complete the Form Provided Below</h1>
+   <div className="forms">
    < ClassForm />
-   {/* <Classform1 /> */}
+   <FunctionForm />
+   </div>
    </>
   );
 }
